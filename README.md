@@ -1,4 +1,4 @@
-# captstone
+# capstone
 My final capstone project for DSI
 
 ## STREAMING/STORING TWITTER DATA AND REQUIRED INFRASTRUCTURE
