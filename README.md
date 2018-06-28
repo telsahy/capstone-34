@@ -83,4 +83,4 @@ Instructions on working with resulting datasets using pandas DataFrames are prov
 - Tamir ElSahy
 
 ## Acknowledgments
-- Full acknowledgments available in the file titled Building Datasets for Dialect Classifiers using Twitter.pdf contained within this repo.
+- Full acknowledgments available in the file titled `Building Datasets for Dialect Classifiers using Twitter.pdf` contained within this repo.
