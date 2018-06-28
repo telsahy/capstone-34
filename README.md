@@ -6,8 +6,8 @@ Clone this repository to your local harddrive: `git clone https://github.com/te
 
 ### Prerequisites
 Install dependencies from the included `requirements.txt` file by running either of the following commands:
-- `!pip install -r requeriments.txt`
-- `$ pip install -r requeriments.txt`
+- `!pip install -r requirements.txt`
+- `$ pip install -r requirements.txt`
 
 ## Harvesting Twitter Data and Required Infrastructure
 
