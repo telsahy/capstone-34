@@ -32,15 +32,15 @@ Install dependencies from the included `requirements.txt` file by running either
 Instructions on working with resulting datasets using pandas DataFrames are provided within the related Jupyter Notebooks.   
 
 ### Cleaning data:
-	- Using regex to filter out emojis, links, http, excluded Arabic unicode in many cases. An easier way to clean the data is to import tweet-preprocessor, the twitter preprocessing package provided in the requirements.txt file.
-	- Check for duplicates before converting document formats.
-	- Pickle cleaned data into a seperate folder (e.g: gulf_twitter_pickled). 
+- Using regex to filter out emojis, links, http, excluded Arabic unicode in many cases. An easier way to clean the data is to import tweet-preprocessor, the twitter preprocessing package provided in the requirements.txt file.
+- Check for duplicates before converting document formats.
+- Pickle cleaned data into a seperate folder (e.g: gulf_twitter_pickled). 
 	
 ### Storing data in MongoDB:
-	- Storing should be taking place at each stage of the process. 
-	- Build up corpus, store in Mongo collection as two documents for each class, EG and Gulf.
-	- Store combined documents under a new collection on Mongo.
-	- Store cleaned data into Mongo collection (e.g: `cleaned_gulf`, with documents being `cleaned_stream` and `cleaned_timelines`). 
+- Storing should be taking place at each stage of the process. 
+- Build up corpus, store in Mongo collection as two documents for each class, EG and Gulf.
+- Store combined documents under a new collection on Mongo.
+- Store cleaned data into Mongo collection (e.g: `cleaned_gulf`, with documents being `cleaned_stream` and `cleaned_timelines`). 
     
 ## Basic EDA/Visualization
 - Inspect keyword documents for excessive advertisement and remove duplicates.
