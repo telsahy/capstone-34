@@ -8,8 +8,8 @@ Clone this repository to your local harddrive: `git clone https://github.com/te
 
 ### Prerequisites
 Install dependencies from the included `requirements.txt` file by running either of the following commands:
-- `!pip install -r requeriments.txt`
-- `$ pip install -r requeriments.txt`
+- `!pip install -r requirements.txt`
+- `$ pip install -r requirements.txt`
 
 ## Harvesting Twitter Data and Required Infrastructure
 
@@ -73,7 +73,7 @@ Instructions on working with resulting datasets using pandas DataFrames are prov
 
 ### Results:
 - Perform plotting, confusion matrix, classification report, roc curve, etc.  
-Optional: Clustering estimators, DBSCAN, KMeans, Spectral Clustering
+- Optional: Clustering estimators, DBSCAN, KMeans, Spectral Clustering
 
 ## Deep Learning - Text Classification with RNN
 - Word2Vec
