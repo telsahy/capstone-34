@@ -2,12 +2,12 @@
 A project to harvest corpora for Egyptian Arabic and Gulf Arabic from Twitter, conduct descriptive analyses of the resulting corpora, and show that a simple classifier can predict dialect quite effectively. 
 
 ## Getting Started
-Clone this repository to your local harddrive: git clone https://github.com/username/projectname.git
+Clone this repository to your local harddrive: git clone https://github.com/telsahy/capstone-34.git
 
 ### Prerequisites
-The packages you need to install and how to install them:
-1. # installing dependencies from file
-2. $ pip install -r requeriments.txt
+Install dependencies from the included `requirements.txt` file by running either of the following commands:
+- !pip install -r requeriments.txt
+- $ pip install -r requeriments.txt
 
 ## Harvesting Twitter Data and Required Infrastructure
 ### Streaming:
@@ -39,10 +39,10 @@ Storing data in MongoDB:
 	- Store combined documents under a new collection on Mongo.
 	- Store cleaned data into Mongo collection (e.g: `cleaned_gulf`, with documents being `cleaned_stream` and `cleaned_timelines`). 
     
-## Basic EDA/Visualizations
-	- Inspect keyword documents for excessive advertisement and remove duplicates. 
-	- Inspect geographic origins of keyword documents to determine the document's utility to the overall collection. 
-	- Identify users who contribute most to the keyword stream and add them to the timelines stage
+## Basic EDA/Visualization
+- Inspect keyword documents for excessive advertisement and remove duplicates.
+- Inspect geographic origins of keyword documents to determine the document's utility to the overall collection. 
+- Identify users who contribute most to the keyword stream and add them to the timelines stage
     
 ## EDA, Tokenization, and SVD 
 - Perform EDA, tokenization and SVD on collected data:
@@ -80,4 +80,4 @@ Optional:Use clustering estimators:
 - Tamir ElSahy
 
 ## Acknowledgments
-- Please refer to the research paper for list of acknoledgments
+- Please refer to the research paper for list of acknowledgments
