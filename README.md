@@ -2,14 +2,15 @@
 A project to harvest corpora for Egyptian Arabic and Gulf Arabic from Twitter, conduct descriptive analyses of the resulting corpora, and show that a simple classifier can predict dialect quite effectively. 
 
 ## Getting Started
-Clone this repository to your local harddrive: git clone https://github.com/telsahy/capstone-34.git
+Clone this repository to your local harddrive: `git clone https://github.com/telsahy/capstone-34.git`
 
 ### Prerequisites
 Install dependencies from the included `requirements.txt` file by running either of the following commands:
-- !pip install -r requeriments.txt
-- $ pip install -r requeriments.txt
+- `!pip install -r requeriments.txt`
+- `$ pip install -r requeriments.txt`
 
 ## Harvesting Twitter Data and Required Infrastructure
+
 ### Streaming:
 - Create list of dialect specific keyword search terms to use for twitter streamers.
 - Create Docker file containing tweepy authentication tokens + other modules added to the jupyter scipy docker image to make the code generalized enough to work with different instances.
@@ -60,17 +61,15 @@ Storing data in MongoDB:
 	- Kullback-Leibler Divergence Model, SVD. 
 
 ## Train/Test Estimators on Collected Data (Classes: EG & GULF) 
-Classifiers: 
-	- Naive Bayes
-	- Multinomial LR classifiers
-	- Logistic Regression
-Results:
-	- Perform plotting, confusion matrix, classification report, roc curve, etc.  
 
-Optional:Use clustering estimators: 
-	- DBSCAN
-	- KMeans
-	- Spectral Clustering
+### Classifiers: 
+- Naive Bayes
+- Multinomial LR classifiers
+- Logistic Regression
+
+### Results:
+- Perform plotting, confusion matrix, classification report, roc curve, etc.  
+Optional: Clustering estimators, DBSCAN, KMeans, Spectral Clustering
 
 ## Deep Learning - Text Classification with RNN
 - Word2Vec
