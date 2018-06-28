@@ -1,3 +1,5 @@
+___Note: This repo (capstone-34) is used only to harvest EG Arabic from twitter and to conduct basic EDA on the data. For the relevant GULF Arabic twitter streams and users, please refer to the capstone-35 repo. Additionally, to conduct topic modeling and classification on a corpus containing both dialects, please refer to capstone-52.___
+
 # Twitter Dialect Datasets and Classifiers (Arabic)
 A project to harvest corpora for Egyptian Arabic and Gulf Arabic from Twitter, conduct descriptive analyses of the resulting corpora, and show that a simple classifier can predict dialect quite effectively. 
 
@@ -6,8 +8,8 @@ Clone this repository to your local harddrive: `git clone https://github.com/te
 
 ### Prerequisites
 Install dependencies from the included `requirements.txt` file by running either of the following commands:
-- `!pip install -r requirements.txt`
-- `$ pip install -r requirements.txt`
+- `!pip install -r requeriments.txt`
+- `$ pip install -r requeriments.txt`
 
 ## Harvesting Twitter Data and Required Infrastructure
 
